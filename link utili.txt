@@ -1,0 +1,17 @@
+https://medium.com/@cabot_solutions/a-guide-to-using-selenium-for-continuous-integration-testing-c2b43f4d4872
+https://www.youtube.com/watch?v=gsHyDIyA3dg
+
+Articoli per parte 2:
+https://www.zerounoweb.it/software/sviluppo-software/che-cose-la-metodologia-devops-come-applicarla-e-livelli-di-adozione-in-italia-e-nel-mondo/
+https://www.zerounoweb.it/mobility/economia-delle-applicazioni-quali-gli-scenari-futuri-secondo-ca-technologies/
+https://www.zerounoweb.it/techtarget/searchdatacenter/it-governance/il-devops-raccontato-da-gartner-come-rendere-meno-complessa-lit/
+https://aws.amazon.com/it/devops/what-is-devops/
+https://www.qrpinternational.it/corsi/metodologia-devops/devops-cose/
+https://qrpinternational-blog.net/2018/02/01/5-cose-che-devi-assolutamente-sapere-su-devops/
+https://www.extrasys.it/it/redblog/cos-%C3%A8-il-devops-e-perche-dovrebbe-interessarti
+http://overneteducation.it/Home/DettaglioPercorso/128/che-cose-devops-cose-la-metodologia-agile-per
+https://www.digital4.biz/whitepapers/la-vera-storia-del-devops-cose-quando-e-nato-e-perche-puo-aiutare-il-vostro-business/
+https://www.digital4.biz/marketing/il-marketing-diventa-piu-agile-il-devops-a-supporto-delle-campagne/
+https://www.impresacity.it/approfondimenti/1736/devops-ecco-la-software-factory-degli-anni-duemila.html
+http://www.felicepescatore.it/alm/180-devops-nuovi-obiettivi-per-il-management
+https://www.claranet.it/infogerance/devops-e-integrazione-continua
