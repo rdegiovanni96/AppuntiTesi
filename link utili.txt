@@ -1,7 +1,7 @@
 https://medium.com/@cabot_solutions/a-guide-to-using-selenium-for-continuous-integration-testing-c2b43f4d4872
 https://www.youtube.com/watch?v=gsHyDIyA3dg
 
-Articoli per parte 2:
+Articoli per parte 2 della tesi:
 https://www.zerounoweb.it/software/sviluppo-software/che-cose-la-metodologia-devops-come-applicarla-e-livelli-di-adozione-in-italia-e-nel-mondo/
 https://www.zerounoweb.it/mobility/economia-delle-applicazioni-quali-gli-scenari-futuri-secondo-ca-technologies/
 https://www.zerounoweb.it/techtarget/searchdatacenter/it-governance/il-devops-raccontato-da-gartner-come-rendere-meno-complessa-lit/
