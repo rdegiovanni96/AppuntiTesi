@@ -15,3 +15,4 @@ https://www.digital4.biz/marketing/il-marketing-diventa-piu-agile-il-devops-a-su
 https://www.impresacity.it/approfondimenti/1736/devops-ecco-la-software-factory-degli-anni-duemila.html
 http://www.felicepescatore.it/alm/180-devops-nuovi-obiettivi-per-il-management
 https://www.claranet.it/infogerance/devops-e-integrazione-continua
+https://www.kiratech.it/blog/configuration-management-tools-ansible-e-puppet
