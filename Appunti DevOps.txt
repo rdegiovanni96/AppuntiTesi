@@ -1,0 +1,202 @@
+DEVOPS IN THE ASCENDENCY
+Transformations toward web-based and mobile-friendly applications --> organizations forced to completely reexamine their 
+software development and IT management practices.
+Small teams with cross-functional expertise. No more separate team of development and operation.
+Increase ability to deliver new capabilities to end users, leveraging automation, aiming "continuos delivery" to suit 
+emerging customer preferences. 
+Transform the SDLC (Software Development Life Cycle) to increase efficiency and meet end users' changing expectations.
+Mentality and flexibility: enterprises vs startups. Using devops allow enterprises becoming more agile in order to better 
+keep pace with their smaller rivals.
+
+IT IMPASSE
+Before: separate teams overseeing discrete technology functions.
+Three transformational forces: products to services, efficiency to agility, separation to fusion.
+Producer/consumer relationship has been reversed. Now producers have to respond to customers' behaviors rather than
+dictaing them. This is no more possible following a waterfall model (define all the requirements and features at the start)
+because in the time taken to realese the software, business conditions may have changed. Problem definitions and 
+requirements can change as new solutions are considered and implemented, so much more flexibility is required. This 
+can be reached with agile development which involves iterative problem solving and continuos feedback.
+Problem with agile development: development teams focused on speed and agility, IT operations focused on stability and
+some of their processes can be too rigid to support newer applications desgined to be always changing.
+Recent technology trends to bypass IT operations: polyglot programming languages, programmable infrastructure, 
+open source software (increase agility with tools that simplify and automate many tasks), cloud and platform as-a-service, 
+containers, canary releases, design for failure. 
+Delivering faster doesn't guarantee success (common failings...).
+Development teams must continuosly deliver software services at an increased velocity --> teams might be the necessity to 
+change application architectures to improve software flexibility.
+Older architecture: monolith architecture: applications are packaged and operate as a single unit (brittleness, risk, 
+tightly coupled, dependencies). Modern architecture: microservice architecture: involve building applications as a set of 
+small indipendent services, each microservice focuses on a specific element of business functionality (independent 
+deployment, independent coding, fault tolerance, increased agility)
+
+DEVOPS FOUNDATIONS
+Devops culture involves creating new shared values and behaviors across IT teams.
+Before: IT teams organized in technical silos, where change was less frequent but occurred in greater volumes. Multi-functional cross must be estabilished 
+across IT teams.
+Analytic tools to put staff in the shoes of customers and get realistic insights into the customer experience.
+Modification of communication structure in order to improve cross-functional IT collaborations: small teams each one responsible of a part of an overall system
+ --> really important collaboration between this teams. Expecially the collaboration between development and operation: operation team members regularly partecipate
+in meetings in order to understand how important is developing code quickly, at the same time development team members attend operational workshop to gain
+better insights into the problems caused by poorly performig or insecure software.
+Organizations' business model:
+- run the business
+- grow the business (Netflix)
+- transform the business (Amazon)
+Try to reduce element of waste like the friction between development and operation which causes delays.
+Eight element of waste (table): Defects, Overproduction, Waiting, Non-value added processing, Transportation, Inventory, Motion, Employee knowledge
+DevOps metrics:
+There are existing measures and type of metrics but they are counter DevOps principles: vanity metrics (ex: lines of code produced, may be counterproductive 
+beacuse reward the wrong type of behavior), intra-metrics team, traditional metrics (ex: MTBF, may be counterproductive because with faster delivery of
+services some failure is to be expected).
+Suitability checklist: obtainable (some metrics may be difficult to obtain or quantify), reviewable (easily collected but no tangible value), incorruptible (check 
+if metrics may be influenced by team bias), actionable (any metrics must support improved decision making). 
+One common mistake is, for example, to measure too many elements; metrics applicable to DevOps may be new to organizations (speed of deployment, rate of change,
+customer reponsiveness).
+Metrics applicable to DevOps:
+- Culture, collaboration and sharing: provide an ongoing indicator of acceptance / resistance to DevOps (ex: staff retention rates/turnover, employee morale)
+- Efficiency and effectiveness: metrics here normally focus on elements of development and operational capabilities and also customer-centric ratios
+(full-time-equivalent, cost of release, cost per transaction/app)
+- Quality and velocity: rate of rollbacks, cycle time, MTTR (mean time to recover)
+- Customer and business value: metrics which help measure how DevOps supports business goals like increased customer loyalty (measured with the metric NPS)
+and faster time-to-market (time taken from when code starts development to successful production deployment
+
+ESSENTIAL DEVOPS TOOLING
+
+1. BUILD
+In the digital economy, building API is essential for executing ideas quickly and seizing new business opportunities 
+APIs provide the essential glue that binds together internal business departments, allowing them to operate as a seamless whole, so if sales needs access to 
+marketing data or marketing needs custome analytics, the secret sauce will be an API. APIs help unify people, process and technology across the software 
+lifecycle, and this is extremely beneficial from a DevOps perspective: if development needs access to application performance information from production monitoring 
+tools, it's an API that'll service the request. With APIs, modern applications can be developed faster and integrating existing systems becomes easier.
+API management embodies the principles of DevOps by managing the API lifecycle. The definition of APIs is not limited to just the development team, IT operations and
+business stakeholders also need to be involved to enusure APIs are aligned to the overall program initiatives.
+Ongoing measurement and monitoring is often overlooked in the API lifecycle, analytics play a critical role in answering question about APIs issues: in a DevOps 
+context, they are also especially valuable in serving essential information and feedback to cross-funcitonal team members in order to drive API improvements: 
+performance analytics (providing developers with real-time insight into operational performance such as API latency), business analytics (tracking usage and consumption
+by external partners and developers in order to better respond to market demand), app experience analytics (report on metrics, providing complete return on investment).
+Automation and integration are essential for capturing such insights with minimum effort and that's why effective API management is founded on intelligent and 
+integrated tools that simplify different stages of the lifecycle for different stakeholders.
+Security is a major concern across the API lifecycle, in a DevOps context, information security professionals will work with developers to identify and neutralize critical
+threats: the goal shouldn't be to wait for security issues later, but rather to help teams estabilish string security as they design, create and test APIs.
+Developers look for API management to help them discover, acquire, and consume APIs quickly, therefore is really important that API management should suport simplified 
+and controlled access to data in order to shield developers from unnecessary complexity.
+Problem in API performance monitoring: API Managment Gateways (detailed insight into APIs issues, but lack the depth of analysis of application performance) vs Application
+Performance Management (powerful analysis of application performance but lack inclusion of API-level data. So it's really important the integration between APM and 
+API management Gateways. Bridging the gap between API management and APM solutions can help teams collaborate effectively. By monitoring detailed API metrics and data
+traversing gateways in combination with APM analytics, teams can detect slow growing problem and fast acting acute ones. 
+API management solutions simplify the process of developers gaining access top APIs, but if back-end systems aren't available for testing connectivity, there can be 
+delivery delays. One of the possible solution is the integration of API management with service virtualization (which emulates the behavior of dependent systems and allows
+developers to use services as soon as they are available, rather than having to wait until the process is complete).
+Digital disruptors have already recognized the value that APIs and effective management can deliver in terms of customer engagement, satisfaction and retention. More than 
+65 percent of digital diruptors use APIs internally for building their web applications, mobile apps etc.
+
+2. TEST
+DevOps principles and practices are not only intended to improve the tempo of software releases but also increase quality and with DevOps 'focus on an automating 
+software pipeline, the traditional methods for ensuring quality must now be quesitoned and reviewed.
+Automation will be key for testing to become estabilished within both continuos integration and continuos delivery processes. 
+Testing is essential to DevOps beacuse it brings the discipline into the development processes and avoids the problem (release delays and quality issues) created by leaving 
+QA as a gate or rubber-stamp function only performed at the very end of the cycle.
+The role of tester will change: the focus of testing will shift toward a more consultative role that will help developers learn how to write better tests and 
+improve their approaches to scanning for quality. We are going toward a new comprehensive and elevated test discipline rather than just executing a series of 
+a day-to-day tasks. Some new skills include: thinking beyond pass or fail (helping the business understand what the customer actually experiences and how that can be best 
+simulated during testing), intimate understanding (QA and testing staff need to become far more proficient and understanding all the intricacies), assurance to analytics 
+(instead of documenting defects and reporting back to development, QA must shift toward collecting and aggregating data from a broad range of automated tests to determine 
+the actual cause of defects and where more rigorous testing is needed), mentorship over conflict (rather than costantly being called in to address fragile developers-written
+tests, DevOps focused QA will work closely with their coding colleagues to continuosly improve testing resilience), quality over quantity (redundant , duplicate tests 
+guarantees nothing but cost and delays, QA and testing teams should consider advanced automation methods that generate the smallest number of test cases needed for 100 
+percent functional coverage).
+A key goal of DevOps should be making testing an accelerator an not an obstacle to fast application delivery with the highest levels of quality.
+Agile testing trifecta: test automation, test data management, test constraint removal. 
+Test Automation: manual definition of test cases is a slow and unsystematic process that leads to perhaps 10-20 percent functional test coverage. If testing is going to keep 
+pace with continuos delivery goals, it needs to become much more automated and agile. Test assets can be derived directly from the design and updated automatically to
+reflect changing user needs. It's really important the ability to create test cases right from requirements.
+The goal is that every layer of the application and the complex interactions between components is automatically testes and verified
+throughout the software lifecycle. True extensibility means one tool coordinating and running functional tests on multiple mobile devices under various conditions, traditional
+approaches to testing is no longer sufficient: code needs to be tested using the same conditions that the app will run under when in the hands of a user, test should also
+allow for different profiles simulating network conditions, location, background applications and device orientation.
+Test Data Management: every tester needs quality test data and quickly, the challenge is getting the right data to match their tests when they need it. To address the complex
+issues involved with the acquisition of quality data and regulatory compliance, modern test data management solutions will provide synthetic test data generation (contains all
+of the characteristics of production but none of the sensitive content)
+If testing is going to keep pace with continuos delivery goals, it needs to become much more automated and agile. The manual definition of test cases is a slow and 
+unsystematic process that leads to perhaps 10-20 percent functional test coverage, manual testing uses up resources which can be seen as a waste by developers,
+expecially when they have other important projects to work on, this is exactly why automating tests is important. 
+--> incomplete requirements equals faulty software and make unefficiency tests.
+Every tester needs quality test data and quickly, the challenge is the right data to match their tests when they need it. 
+
+3. DEPLOY
+To keep pace with demands for new features and application updates, digital transformation must be driven by continuos delivery (the ability to rapidly and reliably release 
+software across the pipeline at any time. Continuosly delivering software is an extremely collaborative process that spans multiple departments. Major obstacles are delays 
+and release bottlenecks (for example inefficiencies caused by the uncoordinated adoption of open source tools, leading to duplication of effort, redundant solutions etc.).
+Three way to accelerate maturity:
+- Connect end-to-end release management: the key is the ability to automate and standardize application release all the way from development through to production; 
+rather than act in isolation, release automation must easily integrate with other processes and tools (e.g., continuos integration, configuration management) across the 
+continuos delivery toolchain 
+- Automated to continuos: some pressure points drive a shift to better pipeline management; the continuos delivery pipeline is becoming the single control point 
+and application delivery is becoming streamlined, predictable and risk-free. At this stage release automation is orchestrating tools and processes beyond deployment, 
+including application lifecycle management and service management processes.
+- Optimize the continuos delivery pipeline: with the continuos delivery pipeline being too important to fail, attention should become focused toward making the pipeline
+as efficient, stable, resilient as possible. Shifting toward mastering the art of releasing multi-app, cross-app, multi-team applications and making deployments more 
+predictable and efficient. Improving business execution through accelerated feeback loops will be anothe benefit.
+More advanced solutions will serve as an integration hub, orchestrating many activities across the pipeline (for example at a simple level this could involve 
+application-centric release automation to configure all the resources needed to support a new build).
+Release automation toolchain integrations needed to optimize continuos delivery:
+1. Requirements design: this integration allows agile teams to track multi-application release content through the software lifecycle and establish critical feedbacks
+loops for faster problem resolution; with a real-time dashboard for managing and monitoring multi-application release content (user stories, features, bug fixes) 
+through the pipeline, agile teams gain complete visibility of release progress. Without this integration, agile teams would have to manually track and report on 
+business-level user stories, features, or fixes to specific application releases moving through the pipeline.
+2. Service virtualization: this integration automates the launch of virtual services as part of a deployment to optimize resources and speed testing.
+3. Test Data Management: this integration automates the generation of accurate test data based on proper test cases within a release workflow.
+4. Test Automation: this integration automatically starts the test case process and with the results linked back to the release it confirms readiness for promotion.
+Without this integration it would be necessary to manually determine if the application has sufficiently passed a testing stage in order to move forward to the next
+stage and then manually promote the application.
+5. This integration establishes monitoring earlier in the software lifecycle in order to feedback critical information needed to improve quality; release automation
+can coordinate the installation and activation of monitoring in pre-production enabling teams to see performance impact of releases and compare it against 
+production baselines.
+6. Existing toolchain investments:...
+
+When building multi-component/multi-application systems, there will be complex dependencies between applications or different versions of an application, the
+knowledge of which application version depends on which is critical and often only known to a small number of experts, systems should be able to establish the 
+definition of these dependencies with automatic alerts when dependency conditions are not met.
+Systems should provide a clear view of the release pipeline, including all phases and all tasks within each phase.
+The best way to start is by assessing processes, culture, and tools currently in use.
+
+
+
+
+
+
+?:
+operation task
+environment
+API gateway
+different branches vs committing in trunk
+back-end vs front-end systems
+application economy
+test: in che linguaggio? lanciati esclusivamente sul codice?
+synthetic data
+automatizzare la deployment--> in che senso?
+
+
+
+
+envisage: prevedere
+intricacies: complessità
+streamline: snellire
+enhance: migliorare
+lagged behind: rimasta indietro
+to address: affrontare (un qualcosa, una problematica)
+by way of example: a titolo di esempio
+Regardless (of): indipendentemente
+error prone: incline a errori
+readiness: disponibilità
+
+
+
+
+
+
+
+
+
+
+
